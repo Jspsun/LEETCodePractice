@@ -12,8 +12,6 @@ public class Solution {
         if (nums[j] == difference)
         {
           numbers[1] = j;
-
-          // asda
           return numbers;
         }
       }
