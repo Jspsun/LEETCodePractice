@@ -2,7 +2,7 @@ public class Solution {
   public List<String>fizzBuzz(int n) {
     List<String> output = new ArrayList<String>();
 
-    for (int i = 1; i < n; i++)
+    for (int i = 1; i <= n; i++)
     {
       if ((i % 5 == 0) || (i % 3 == 0))
       {
