@@ -7,7 +7,5 @@ public class Solution {
       reverse += s.charAt(i);
     }
     return reverse;
-
-    // test
   }
 }
