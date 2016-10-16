@@ -12,7 +12,7 @@ public class Solution {
         }
         else if (i % 3 != 0)
         {
-          output.add("Buzz");
+          output.add("Buzz");     
         }
         else
         {
