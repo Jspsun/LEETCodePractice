@@ -1,6 +1,7 @@
 public class Solution {
   public int addDigits(int num) {
-    if (num <= 9) {
+    if (num <= 9)
+    {
       return num;
     }
     String numberS = Integer.toString(num);
