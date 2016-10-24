@@ -11,8 +11,8 @@ public class Solution {
       char character = ransomNote.charAt(i);
 
       for (int j = 0; j < magazineChar.length; j++) {
-        if ((character == magazineChar[i]) && !used[i]) {
-          used[i] = true;
+        if ((character == magazineChar[j]) && !used[j]) {
+          used[j] = true;
           break;
         }
         else if (j == magazineChar.length - 1)
