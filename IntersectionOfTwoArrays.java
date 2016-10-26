@@ -7,23 +7,21 @@ public class Solution {
         map.put(nums1[i], 1);
       }
     }
-    int numbers[] = new int[Math.min(nums1.length, nums2.length)];
-    int counter   = 0;
+    List<Integer> numbers = new ArrayList<>();
 
     for (int i = 0; i < nums2.length; i++) {
       if (map.containsKey(nums2[i]))
       {
-        numbers[counter] = nums2[i];
+        numbers.add(nums2[i]);
         map.remove(nums2[i]);
-        counter++;
       }
     }
 
     // transfer array
-    int newArray[] = new int[counter];
+    int newArray[] = new int[numbers.size()];
 
-    for (int i = 0; i < counter; i++) {
-      newArray[i] = numbers[i];
+    for (int i = 0; i < numbers.size(); i++) {
+      newArray[i] = numbers.get(i);
     }
     return newArray;
   }
