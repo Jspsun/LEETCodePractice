@@ -19,12 +19,11 @@ public class Solution {
 
     else if (root.left != null&& root.left.left == null&& root.left.right == null)
     {
-      counter += root.left.val;
+      return (sumOfLeftLeaves(root.right) + sumOfLeftLeaves(root.left) +
+              root.left.val)
     }
-
-    sumOfLeftLeaves(root.left);
-    sumOfLeftLeaves(root.right);
-
-    return counter;
+    else {
+      return sumOfLeftLeaves(root.left) + sumOfLeftLeaves(root.right);
+    }
   }
 }
