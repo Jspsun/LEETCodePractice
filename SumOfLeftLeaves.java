@@ -8,7 +8,6 @@
  * }
  */
 public class Solution {
-  int counter = 0;
   public int sumOfLeftLeaves(TreeNode root) {
     // terminate
 
@@ -19,8 +18,8 @@ public class Solution {
 
     else if (root.left != null&& root.left.left == null&& root.left.right == null)
     {
-      return (sumOfLeftLeaves(root.right) + sumOfLeftLeaves(root.left) +
-              root.left.val)
+      return sumOfLeftLeaves(root.right) + sumOfLeftLeaves(root.left) +
+             root.left.val;
     }
     else {
       return sumOfLeftLeaves(root.left) + sumOfLeftLeaves(root.right);
