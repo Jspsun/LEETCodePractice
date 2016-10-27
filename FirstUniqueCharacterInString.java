@@ -5,7 +5,7 @@ public class Solution {
 
     for (int i = 0; i < s.length(); i++) {
       if (set.contains(s.charAt(i))) {
-        setRepeats.add(charAt(i));
+        setRepeats.add(s.charAt(i));
       }
       set.add(s.charAt(i));
     }
