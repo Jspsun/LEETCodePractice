@@ -7,8 +7,8 @@ public class Solution {
       letters[s.charAt(i) - 'A']++;
     }
 
-    int counter = 0;
-    boolean isOdd;
+    int counter   = 0;
+    boolean isOdd = false;
 
     for (int i = 0; i < 58; i++) {
       if (letters[i] % 2 == 0) {
@@ -22,7 +22,7 @@ public class Solution {
 
 
     if (isOdd) {
-      return counter + longest + 1;
+      return counter + 1;
     }
 
     return counter;
