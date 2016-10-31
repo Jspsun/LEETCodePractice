@@ -22,6 +22,6 @@ public class Solution {
         return false;
       }
     }
-    return hasPathSum(root.left) || hasPathSum(root.right);
+    return hasPathSum(root.left, sum) || hasPathSum(root.right, sum);
   }
 }
