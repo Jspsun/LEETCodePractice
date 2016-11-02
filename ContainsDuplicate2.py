@@ -1,18 +1,5 @@
-class Solution(object):
-    def containsNearbyDuplicate(self, nums, k):
-        """
-        :type nums: List[int]
-        :type k: int
-        :rtype: bool
-        """
+public class Solution {
+    public boolean containsNearbyDuplicate(int[] nums, int k) {
 
-        //
-
-
-
-
-
-
-
-        for i in range(len(nums)-1):
-            if nums[i] is in
+    }
+}
