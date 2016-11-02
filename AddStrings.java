@@ -5,7 +5,7 @@ public class Solution {
     int num1Index = num1.length() - 1;
     int num2Index = num2.length() - 1;
 
-    for (int i = number.length - 2; i > 0; i--) {
+    for (int i = number.length - 1; i > 0; i--) {
       if (num1Index >= 0) {
         number[i] += num1.charAt(num1Index) - '0';
         num1Index--;
