@@ -12,8 +12,9 @@ public class Solution {
     }
 
     for (int i = 0; i < ransomNote.length(); i++) {
-      if (map.containsKey(ransomNote.charAt(i))) {
-        map.remove(ransomNote.charAt(i));
+      if (map.containsKey(ransomNote.charAt(i)) &&
+          (map.get(ransomNote.charAt(i)) > 0)) {
+        map.put(ransomNote.charAt(i), map.get(ransomNote.charAt(i)) - 1);
       }
       else {
         return false;
