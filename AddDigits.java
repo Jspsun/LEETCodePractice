@@ -11,5 +11,7 @@ public class Solution {
       number += numberS.charAt(i) - '0';
     }
     return addDigits(number);
+
+    return 0;
   }
 }
