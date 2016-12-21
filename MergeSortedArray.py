@@ -8,29 +8,10 @@ class Solution(object):
         :type n: int
         :rtype: void Do not return anything, modify nums1 in-place instead.
         """
-        i1 = 0
-        i2 = 0
-        total = m + n
-        while i1 < m and i2 < n:
-            if nums2[i2] < nums1[i1]:
-                self.shift(nums1, i1, total)
-                nums1[i1] = nums2[i2]
-                i1 += 1
-                i2 += 1
-                m += 1
-            else:
-                i1 += 1
-        if(i2 < n):
-            while(i2 < n):
-                nums1[i1] = nums2[i2]
-                i1 += 1
-                i2 += 1
+        int index = m + n - 1
+        while m > 0 and n > 0:
+            if nums[m]
 
-    def shift(self, nums, index, length):
-        length -= 1
-        while(length > index):
-            nums[length] = nums[length - 1]
-            length -= 1
 
 s = Solution()
 
@@ -44,7 +25,6 @@ ListOne = [0]
 lOne = 0
 ListTwo = [1]
 lTwo = 1
-
 
 
 s.merge(ListOne, lOne, ListTwo, lTwo)
