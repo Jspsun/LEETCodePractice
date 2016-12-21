@@ -8,10 +8,16 @@ class Solution(object):
         :type n: int
         :rtype: void Do not return anything, modify nums1 in-place instead.
         """
-        int index = m + n - 1
-        while m > 0 and n > 0:
-            if nums[m]
 
+        while m > 0 and n > 0:
+            if nums1[m - 1] > nums2[n - 1]:
+                nums1[m + n - 1] = nums1[m - 1]
+                m -= 1
+            else:
+                nums1[m + n - 1] = nums2[n - 1]
+                n -= 1
+        if n > 0:
+            nums1[:n] = nums2[:n]
 
 s = Solution()
 
@@ -20,10 +26,9 @@ s = Solution()
 # ListTwo = [2, 4, 7, 8]
 # lTwo = 4
 
-
-ListOne = [0]
-lOne = 0
-ListTwo = [1]
+ListOne = [1, 0]
+lOne = 1
+ListTwo = [0]
 lTwo = 1
 
 

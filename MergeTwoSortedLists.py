@@ -27,7 +27,7 @@ class Solution(object):
             cursor = cursor.next
 
         cycleNode = l1
-        if(cycleNode == None):
+        if not cycleNode:
             cycleNode = l2
         cursor.next = cycleNode
 
