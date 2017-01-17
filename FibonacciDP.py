@@ -6,4 +6,4 @@ def fib(n):
         memo.append(memo[i - 1] + memo[i - 2])
     return memo[n]
 
-print fib(2)
+print fib(999000)
