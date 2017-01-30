@@ -4,7 +4,7 @@ Some of the code I've written in preparation for coding interviews. Check out my
 ___
 
 **So far (as of January 30th) my count is at:**
-#57
+#61
 
 *Unique problems solved*
 
@@ -13,7 +13,7 @@ ___
 ##ProgressLog
 |Date               |Questions Solved|
 |------------------:|:---------------|
-|January 30, 2017:  |  **57**        |   
+|January 30, 2017:  |  **61**        |   
 |December 30, 2016: |  **40**        |  
 |November 30, 2016: |  **20**        |   
 |October 30, 2016:  |  **5**         |  
