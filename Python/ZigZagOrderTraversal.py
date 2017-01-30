@@ -8,23 +8,29 @@
 
 class Solution(object):
 
-    def levelOrderBottom(self, root):
+    def zigzagLevelOrder(self, root):
+        """
+        :type root: TreeNode
+        :rtype: List[List[int]]
+        """
         list = []
         self.helper(list, root, 0)
-        return list[::-1]
+        return list
 
     def helper(self, list, root, level):
         if root == None:
             return
         if level >= len(list):
             list.append([])
-        list[level].append(root.val)
+        if level % 2:
+            list[level].insert(0, root.val)
+        else:
+            list[level].append(root.val)
         self.helper(list, root.left, level + 1)
         self.helper(list, root.right, level + 1)
 
 
-from TestObjects import *
-
+from TestObjects import BinaryTree
 b = BinaryTree()
 s = Solution()
-print s.levelOrderBottom(b.root)
+print s.zigzagLevelOrder(b.root)

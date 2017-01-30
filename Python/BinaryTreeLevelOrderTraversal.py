@@ -8,10 +8,14 @@
 
 class Solution(object):
 
-    def levelOrderBottom(self, root):
+    def levelOrder(self, root):
+        """
+        :type root: TreeNode
+        :rtype: List[List[int]]
+        """
         list = []
         self.helper(list, root, 0)
-        return list[::-1]
+        return list
 
     def helper(self, list, root, level):
         if root == None:
@@ -22,9 +26,7 @@ class Solution(object):
         self.helper(list, root.left, level + 1)
         self.helper(list, root.right, level + 1)
 
-
-from TestObjects import *
-
+from TestObjects import BinaryTree
 b = BinaryTree()
 s = Solution()
-print s.levelOrderBottom(b.root)
+print s.levelOrder(b.root)
