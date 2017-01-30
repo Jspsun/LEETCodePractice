@@ -11,7 +11,7 @@ ___
 ___
 
 ##ProgressLog
->January 30, 2017:     **57**
->December 30, 2016:    **40**
->November 30, 2016:    **20**
->October 30, 2016:     **5**
+>January 30, 2017:     **57**   
+>December 30, 2016:    **40**   
+>November 30, 2016:    **20**   
+>October 30, 2016:     **5**   
