@@ -1,5 +1,5 @@
 # LEETCodePractice
-Some of the code I've written in preparation for coding interviews. Check out my journey to getting ~~less crappy~~ better at technical interviews
+Some of the code I've written in preparation for coding interviews. Check out my journey to getting ~~less crappy~~ better at technical interviews!
 
 ___
 
