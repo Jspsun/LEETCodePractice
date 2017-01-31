@@ -13,7 +13,7 @@ ___
 ##ProgressLog
 |Date               |Questions Solved|
 |------------------:|:---------------|
-|January 30, 2017:  |  **61**        |   
+|January 30, 2017:  |  **62**        |   
 |December 30, 2016: |  **40**        |  
 |November 30, 2016: |  **20**        |   
 |October 30, 2016:  |  **5**         |  
