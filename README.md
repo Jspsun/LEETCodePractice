@@ -3,7 +3,7 @@ Some of the code I've written in preparation for coding interviews. Check out my
 
 ___
 
-**So far (as of January 30th) my count is at:**
+**So far (as of February 2nd) my count is at:**
 #65
 
 *Unique problems solved*
