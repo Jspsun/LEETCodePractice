@@ -5,7 +5,6 @@ class MyQueue(object):
         Initialize your data structure here.
         """
         self.s1 = []
-        #not inverted
         self.s2 = []
         self.front = None
 
@@ -15,7 +14,7 @@ class MyQueue(object):
         :type x: int
         :rtype: void
         """
-        if len(self.s1) == 0:
+        if not self.s1:
             self.front = x
         self.s1.append(x)
 
@@ -24,8 +23,8 @@ class MyQueue(object):
         Removes the element from in front of queue and returns that element.
         :rtype: int
         """
-        if len(self.s2) == 0:
-            while len(self.s1) > 0:
+        if not self.s2:
+            while self.s1:
                 self.s2.append(self.s1.pop())
         return self.s2.pop()
 
@@ -34,16 +33,16 @@ class MyQueue(object):
         Get the front element.
         :rtype: int
         """
-        if len(self.s2) > 0:
-            return self.s2[-1]
-        return self.front
+        if not self.s2:
+            return self.front
+        return self.s2[-1]
 
     def empty(self):
         """
         Returns whether the queue is empty.
         :rtype: bool
         """
-        return len(self.s1) == 0 and len(self.s2) == 0
+        return not self.s1 and not self.s2
 
 
 # Your MyQueue object will be instantiated and called as such:
