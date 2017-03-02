@@ -5,5 +5,12 @@ class Solution(object):
         :type num: int
         :rtype: List[str]
         """
-        # create an expansive tree
-        # 10 leds
+        list = []
+        for h in range(12):
+            for m in range(60):
+                if (bin(h) + bin(m)).count("1") == num:
+                    list.append('%d:%02d' % (h, m))
+        return list
+
+S = Solution()
+print S.readBinaryWatch(1)
