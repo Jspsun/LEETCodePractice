@@ -9,7 +9,7 @@ ___
 *Unique problems solved*
 
 ___
- 
+   
 ##ProgressLog
 |Date               |Questions Solved|
 |------------------:|:---------------|
