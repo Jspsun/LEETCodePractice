@@ -51,7 +51,7 @@ def printLog():
     o.write('##ProgressLog\n')
     printTableRow("date", "Questions Solved")
     printTableRow("-:", ":-")
-    printTableRow("February 27, 2017:", "**102**")
+    printTableRow("February 28, 2017:", "**102**")
     printTableRow("January 30, 2017:", "**62**")
     printTableRow("December 30, 2016:", "**40**")
     printTableRow("November 30, 2016:", "**20**")
@@ -62,12 +62,24 @@ def printTableRow(left, right):
     o.write('|' + left + '|' + right + '| \n')
 
 
-o = open('Out.md', 'w')
+o = open('README.md', 'w')
 if __name__ == "__main__":
     main()
 
 '''
+# LEETCodePractice
+Some of the code I've written in preparation for coding interviews. Check out my journey to getting ~~less crappy~~ better at technical interviews!
 
+___
+
+**So far (as of March 13th) my count is at:**
+#115
+
+*Unique problems solved*
+
+___
+
+##ProgressLog
 |Date               |Questions Solved|
 |------------------:|:---------------|
 |February 28, 2017: |  **102**       |
