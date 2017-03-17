@@ -41,7 +41,8 @@ def getNoOfQuestions():
 
 
 def printCount():
-    o.write('**So far (as of ' + time.strftime("%B %d, %Y") + ') my count is at:**\n')
+    o.write('**So far (as of ' + time.strftime("%B %d, %Y") +
+            ') my count is at:**   \n')
     o.write('#' + str(getNoOfQuestions()) + '\n')
     o.write('*Unique problems solved* \n')
     o.write('___\n')
