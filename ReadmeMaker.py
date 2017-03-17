@@ -60,7 +60,7 @@ def printLog():
 
 
 def printTableRow(left, right):
-    o.write('|' + left + '|' + right + '| \n')
+    o.write('| ' + left + ' | ' + right + ' | \n')
 
 
 o = open('README.md', 'w')
