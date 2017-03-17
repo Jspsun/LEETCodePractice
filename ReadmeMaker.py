@@ -43,13 +43,13 @@ def getNoOfQuestions():
 def printCount():
     o.write('**So far (as of ' + time.strftime("%B %d, %Y") +
             ') my count is at:**   \n')
-    o.write('#' + str(getNoOfQuestions()) + '\n')
+    o.write('# ' + str(getNoOfQuestions()) + '\n')
     o.write('*Unique problems solved* \n')
     o.write('___\n')
 
 
 def printLog():
-    o.write('##ProgressLog\n')
+    o.write('## ProgressLog   \n')
     printTableRow("date", "Questions Solved")
     printTableRow("-:", ":-")
     printTableRow("February 28, 2017:", "**102**")
