@@ -13,7 +13,7 @@ def main():
     printLog()
 
     o.close()
-
+    os.system("cd ~/AtomWorkspace/LEETCodePractice/")
     os.system("git add .")
     os.system("git commit -m \"added files\" ")
     os.system("git push")
