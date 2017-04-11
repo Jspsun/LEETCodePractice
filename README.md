@@ -4,12 +4,13 @@ Some of the code I've written in preparation for coding interviews. Check out my
 ___
 
 **So far (as of April 10, 2017) my count is at:**   
-# 131
+# 132
 *Unique problems solved* 
 ___
 ## ProgressLog   
 | date | Questions Solved |   
 | -: | :- |   
+| March 30, 2017: | **129** |   
 | February 28, 2017: | **102** |   
 | January 30, 2017: | **62** |   
 | December 30, 2016: | **40** |   
