@@ -35,7 +35,7 @@ def getNoOfQuestions():
 
     noOfJavaQsSolved = len([f for f in os.listdir(
         pathJ) if os.path.isfile(os.path.join(pathJ, f))])
-    noOfDuplicates = 20
+    noOfDuplicates = 19
 
     return noOfJavaQsSolved + noOfPythonQsSolved - noOfDuplicates
 
