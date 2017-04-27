@@ -3,8 +3,8 @@ Some of the code I've written in preparation for coding interviews. Check out my
 
 ___
 
-**So far (as of April 18, 2017) my count is at:**   
-# 135
+**So far (as of April 26, 2017) my count is at:**   
+# 137
 *Unique problems solved* 
 ___
 ## ProgressLog   
