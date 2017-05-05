@@ -8,8 +8,15 @@ class Solution(object):
         :rtype: List[List[int]]
         """
         nlist = [[None for col in range(c)] for row in range(r)]
+        if c * r != len(nums) * len(nums[0]):
+            return nums
+        counter = 0
         for oR in nums:
-            for oC in nums:
+            for oC in oR:
+                if counter / c > r:
+                    return nums
+                nlist[counter / (c)][counter % c] = oC
+                counter += 1
+        return nlist
 
-
-print Solution().matrixReshape([1, 2, 3], 5, 2)
+print Solution().matrixReshape([[1, 2, 3], [4, 5, 6]], 5, 2)
