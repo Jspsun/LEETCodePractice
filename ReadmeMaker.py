@@ -40,7 +40,7 @@ def getNoOfQuestions():
 
     noOfJavaScriptQsSolved = len([f for f in os.listdir(
         pathJ) if os.path.isfile(os.path.join(pathJS, f))])
-    noOfDuplicates = 22
+    noOfDuplicates = 21
 
     return noOfJavaQsSolved + noOfPythonQsSolved + noOfJavaScriptQsSolved - noOfDuplicates
 
