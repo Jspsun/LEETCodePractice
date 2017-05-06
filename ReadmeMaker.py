@@ -30,14 +30,19 @@ def printHeader():
 def getNoOfQuestions():
     pathP = './Python'
     pathJ = './Java'
+    pathJS = './Javascript'
+
     noOfPythonQsSolved = len([f for f in os.listdir(
         pathP) if os.path.isfile(os.path.join(pathP, f))])
 
     noOfJavaQsSolved = len([f for f in os.listdir(
         pathJ) if os.path.isfile(os.path.join(pathJ, f))])
-    noOfDuplicates = 21
 
-    return noOfJavaQsSolved + noOfPythonQsSolved - noOfDuplicates
+    noOfJavaScriptQsSolved = len([f for f in os.listdir(
+        pathJ) if os.path.isfile(os.path.join(pathJS, f))])
+    noOfDuplicates = 22
+
+    return noOfJavaQsSolved + noOfPythonQsSolved + noOfJavaScriptQsSolved - noOfDuplicates
 
 
 def printCount():
