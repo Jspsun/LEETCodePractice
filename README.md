@@ -10,6 +10,7 @@ ___
 ## ProgressLog   
 | date | Questions Solved |   
 | -: | :- |   
+| April 30, 2017: | **138** |   
 | March 30, 2017: | **129** |   
 | February 28, 2017: | **102** |   
 | January 30, 2017: | **62** |   
