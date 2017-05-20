@@ -6,8 +6,9 @@ ___
 **So far (as of May 20, 2017) my count is at:**   
 # 148
 *Unique problems solved* 
+## Thats almost 27.0% of all of leecode! 
 ___
-## Thats almost27.0% of all of leecode! ## ProgressLog   
+## ProgressLog   
 | date | Questions Solved |   
 | -: | :- |   
 | April 30, 2017: | **138** |   
