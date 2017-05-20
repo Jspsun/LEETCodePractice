@@ -3,11 +3,11 @@ Some of the code I've written in preparation for coding interviews. Check out my
 
 ___
 
-**So far (as of May 11, 2017) my count is at:**   
+**So far (as of May 20, 2017) my count is at:**   
 # 148
 *Unique problems solved* 
 ___
-## ProgressLog   
+## Thats almost0.0% of all of leecode!## ProgressLog   
 | date | Questions Solved |   
 | -: | :- |   
 | April 30, 2017: | **138** |   

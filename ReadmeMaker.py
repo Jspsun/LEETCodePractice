@@ -51,6 +51,8 @@ def printCount():
     o.write('# ' + str(getNoOfQuestions()) + '\n')
     o.write('*Unique problems solved* \n')
     o.write('___\n')
+    o.write('## Thats almost' + str(round(getNoOfQuestions() / 550 * 100)
+                                    ) + '% of all of leecode!')
 
 
 def printLog():
