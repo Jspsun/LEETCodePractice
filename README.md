@@ -4,9 +4,9 @@ Some of the code I've written in preparation for coding interviews. Check out my
 ___
 
 **So far (as of May 20, 2017) my count is at:**   
-# 148
+# 152
 *Unique problems solved* 
-### Thats almost 27.0% of all of leecode! 
+### Thats almost 28.0% of all of leecode! 
 ___
 ## ProgressLog   
 | date | Questions Solved |   
