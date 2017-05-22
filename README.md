@@ -3,8 +3,8 @@ Some of the code I've written in preparation for coding interviews. Check out my
 
 ___
 
-**So far (as of May 20, 2017) my count is at:**   
-# 152
+**So far (as of May 22, 2017) my count is at:**   
+# 154
 *Unique problems solved* 
 ### Thats almost 28.0% of all of leecode! 
 ___
