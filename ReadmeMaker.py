@@ -61,6 +61,7 @@ def printLog():
     o.write('## ProgressLog   \n')
     printTableRow("date", "Questions Solved")
     printTableRow("-:", ":-")
+    printTableRow("May 30, 2017:", "**156**")
     printTableRow("April 30, 2017:", "**138**")
     printTableRow("March 30, 2017:", "**129**")
     printTableRow("February 28, 2017:", "**102**")
