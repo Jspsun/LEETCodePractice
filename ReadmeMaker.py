@@ -46,14 +46,14 @@ def getNoOfQuestions():
 
 
 def printCount():
-    totalQuestions = 550.0
+    totalQuestions = 543.0
     o.write('**So far (as of ' + time.strftime("%B %d, %Y") +
             ') my count is at:**   \n')
     o.write('# ' + str(getNoOfQuestions()) + '\n')
     o.write('*Unique problems solved* \n')
 
     o.write('### Thats almost ' + str(round(getNoOfQuestions() /
-                                            totalQuestions * 100)) + '% of all of leecode! \n')
+                                            totalQuestions * 10) * 10) + '% of all of leecode! \n')
     o.write('___\n')
 
 
