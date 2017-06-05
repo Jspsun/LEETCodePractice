@@ -1,4 +1,2 @@
 *.pyc
 .idea/
-TestObjects.py
-TreeBuilder.py
