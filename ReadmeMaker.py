@@ -18,7 +18,6 @@ def main():
     os.system("git commit -m \"added files\" ")
     os.system("git push")
 
-
 def printHeader():
     o.write('# LEETCodePractice\n')
     o.write('Some of the code I\'ve written in preparation for coding interviews. Check out my journey to getting ~~less crappy~~ better at technical interviews!\n')
