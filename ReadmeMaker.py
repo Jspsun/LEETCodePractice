@@ -45,7 +45,7 @@ def getNoOfQuestions():
 
 
 def printCount():
-    totalQuestions = 543.0
+    totalQuestions = 628.0
     o.write('**So far (as of ' + time.strftime("%B %d, %Y") +
             ') my count is at:**   \n')
     o.write('# ' + str(getNoOfQuestions()) + '\n')
