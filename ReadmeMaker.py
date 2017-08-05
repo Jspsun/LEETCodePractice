@@ -39,7 +39,7 @@ def getNoOfQuestions():
 
     noOfJavaScriptQsSolved = len([f for f in os.listdir(
         pathJ) if os.path.isfile(os.path.join(pathJS, f))])
-    noOfDuplicates = 20
+    noOfDuplicates = 18
 
     return noOfJavaQsSolved + noOfPythonQsSolved + noOfJavaScriptQsSolved - noOfDuplicates
 
@@ -60,6 +60,8 @@ def printLog():
     o.write('## ProgressLog  \n')
     printTableRow("date", "Questions Solved")
     printTableRow("-:", ":-")
+    printTableRow("July 30, 2017:", "**165**")
+    printTableRow("June 30, 2017:", "**160**")
     printTableRow("May 30, 2017:", "**156**")
     printTableRow("April 30, 2017:", "**138**")
     printTableRow("March 30, 2017:", "**129**")
