@@ -3,11 +3,8 @@ from selenium.webdriver.common.keys import Keys
 import Config
 from selenium.webdriver.common.action_chains import ActionChains
 
-import time
-import datetime
-import os.path
 
-class Scraper:
+class Scraper(object):
 
     def __init__(self):
         self.browser = webdriver.Chrome()
@@ -26,28 +23,15 @@ class Scraper:
         self.browser.get('https://leetcode.com/jspsun/')
 
     def getQuestionsSolved(self):
-        return self.browser.find_elements_by_css_selector('.progress-bar-success')[3].text
+        return self.browser.find_elements_by_css_selector('.progress-bar-success')[3].text.split('/')
 
-    def getRank(self):
+    def getStars(self):
         stars = self.browser.find_element_by_css_selector('.ranking')
         ActionChains(self.browser).move_to_element(stars)
 
-    def getStars(self):
+    # incomplete
+    def getRanking(self):
         return 1
 
     def cleanup(self):
         self.browser.close()
-#----------------------------------------------------------------------------------
-
-# class Printer:
-
-#     def __init__(self):
-#         self.
-
-
-#----------------------------------------------------------------------------------
-if __name__ == "__main__":
-    S = Scraper()
-    print S.getQuestionsSolved()
-    print S.getRank()
-    S.cleanup()
