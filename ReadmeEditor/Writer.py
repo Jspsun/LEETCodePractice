@@ -1,7 +1,7 @@
 class Writer(object):
 
     def __init__(self):
-        self.o = open('README.md', 'w')
+        self.o = open('../README.md', 'w')
 
         # constants that I didnt want to put into an enum
         self.bold = 'BOLD'
