@@ -24,7 +24,7 @@ class Writer(object):
 
     def writeln(self, text, modifier=None):
         self.write(text, modifier)
-        self.write(' \n')
+        self.write('   \n')
 
     def cleanup(self):
         self.o.close()
