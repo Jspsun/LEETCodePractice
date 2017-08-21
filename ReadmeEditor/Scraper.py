@@ -8,7 +8,7 @@ class Scraper(object):
 
     def __init__(self):
         self.browser = webdriver.Chrome()
-        self.browser.implicitly_wait(30)
+        self.browser.implicitly_wait(10)
         self.login()
 
     def login(self):
