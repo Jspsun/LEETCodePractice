@@ -24,7 +24,7 @@ def writeQsSolved():
 
 
 def writeLog():
-    W.write('## ProgressLog')
+    W.writeln('## ProgressLog')
     W.writeTableRow("date", "Questions Solved")
     W.writeTableRow("-:", ":-")
     W.writeTableRow("July 30, 2017:", "**173**")

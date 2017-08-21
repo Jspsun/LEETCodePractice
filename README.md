@@ -8,7 +8,8 @@ ___
 *Unique problems solved*   
 ### Thats almost 26.62% of all of leecode!   
 ___   
-## ProgressLog| date | Questions Solved |   
+## ProgressLog   
+| date | Questions Solved |   
 | -: | :- |   
 | July 30, 2017: | **173** |   
 | June 30, 2017: | **171** |   
