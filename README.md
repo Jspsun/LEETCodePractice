@@ -1,5 +1,6 @@
-# LEETCodePractice   
-Some of the code I've written in preparation for coding interviews. Check out my journey to getting ~~less crappy~~ better at technical interviews!   
+# LEETCode Practice   
+Some of the code I've written in preparation for coding interviews.   
+Check out my journey to getting ~~less crappy~~ better at technical interviews!   
    
 ___   
    
@@ -8,7 +9,7 @@ ___
 *Unique problems solved*   
 ### Thats almost 26.62% of all of leecode!   
 ___   
-## ProgressLog   
+## Progress Log   
 | date | Questions Solved |   
 | -: | :- |   
 | July 30, 2017: | **173** |   

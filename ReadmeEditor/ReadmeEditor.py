@@ -7,8 +7,9 @@ from Writer import Writer
 
 
 def writeHeader():
-    W.writeln('# LEETCodePractice')
-    W.writeln('Some of the code I\'ve written in preparation for coding interviews. Check out my journey to getting ~~less crappy~~ better at technical interviews!')
+    W.writeln('# LEETCode Practice')
+    W.writeln('Some of the code I\'ve written in preparation for coding interviews.') 
+    W.writeln('Check out my journey to getting ~~less crappy~~ better at technical interviews!')
     W.writeln('')
     W.writeln('___')
     W.writeln('')
@@ -24,7 +25,7 @@ def writeQsSolved():
 
 
 def writeLog():
-    W.writeln('## ProgressLog')
+    W.writeln('## Progress Log')
     W.writeTableRow("date", "Questions Solved")
     W.writeTableRow("-:", ":-")
     W.writeTableRow("July 30, 2017:", "**173**")
