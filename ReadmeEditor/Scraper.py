@@ -23,7 +23,7 @@ class Scraper(object):
         self.browser.get('https://leetcode.com/jspsun/')
 
     def getQuestionsSolved(self):
-        return self.browser.find_elements_by_css_selector('.progress-bar-success')[3].text.split('/')
+        return list(map(lambda n: int(n), self.browser.find_elements_by_css_selector('.progress-bar-success')[3].text.split('/')))
 
     def getStars(self):
         stars = self.browser.find_element_by_css_selector('.ranking')
