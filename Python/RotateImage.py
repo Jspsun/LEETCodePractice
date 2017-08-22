@@ -4,4 +4,7 @@ class Solution(object):
         :type matrix: List[List[int]]
         :rtype: void Do not return anything, modify matrix in-place instead.
         """
-        
+        matrix[:] = zip(*matrix[::-1])
+
+print zip( [1,2],
+            [3,4])
