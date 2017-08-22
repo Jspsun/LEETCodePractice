@@ -5,9 +5,9 @@ Check out my journey to getting ~~less crappy~~ better at technical interviews!
 ___   
    
 **So far (as of August 22, 2017) my count is at:**      
-# 176   
+# 177   
 *Unique problems solved*   
-### Thats almost 27.08% of all of leecode!   
+### Thats almost 27.23% of all of leecode!   
 ___   
 ## Progress Log   
 | date | Questions Solved |   
