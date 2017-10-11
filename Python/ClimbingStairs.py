@@ -5,10 +5,7 @@ class Solution(object):
         :type n: int
         :rtype: int
         """
-        memo = [0, 1, 2]
-        for n in range(3, n + 1):
-            memo.append(memo[n - 2] + memo[n - 1])
-        return memo[n]
-
-S = Solution()
-print S.climbStairs(4)
+        memo = [1,2]
+        for i in range (2, n):
+            memo.append(memo[i-1] + memo [i-2])
+        return memo[n-1]
