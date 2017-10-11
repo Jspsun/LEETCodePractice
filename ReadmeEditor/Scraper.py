@@ -8,7 +8,7 @@ class Scraper(object):
 
     def __init__(self):
         options = webdriver.ChromeOptions()
-        options.add_argument('headless')
+        # options.add_argument('headless')
         self.browser = webdriver.Chrome(chrome_options=options)
         self.browser.implicitly_wait(10)
         self.login()
