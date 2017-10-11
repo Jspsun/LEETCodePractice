@@ -1,21 +1,16 @@
-# LEETCode Practice   
-Some of the code I've written in preparation for coding interviews.   
-Check out my journey to getting ~~less crappy~~ better at technical interviews!   
-   
-___   
-   
-**So far (as of August 22, 2017) my count is at:**      
-# 177   
-*Unique problems solved*   
-### Thats almost 27.23% of all of leecode!   
-___   
-## Progress Log   
+# LEETCodePractice
+Some of the code I've written in preparation for coding interviews. Check out my journey to getting ~~less crappy~~ better at technical interviews!
+
+___
+
+**So far (as of October 10, 2017) my count is at:**   
+# 189
+*Unique problems solved* 
+### Thats almost 30.1% of all of leecode! 
+___
+## ProgressLog  
 | date | Questions Solved |   
 | -: | :- |   
-| July 30, 2017: | **173** |   
-| June 30, 2017: | **171** |   
-| May 30, 2017: | **170** |   
-| April 30, 2017: | **168** |   
 | July 30, 2017: | **165** |   
 | June 30, 2017: | **160** |   
 | May 30, 2017: | **156** |   
