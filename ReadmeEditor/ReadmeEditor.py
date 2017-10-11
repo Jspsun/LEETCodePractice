@@ -20,7 +20,7 @@ def writeQsSolved():
     W.writeln('**So far (as of ' + time.strftime("%B %d, %Y") + ') my count is at:**   ')
     W.writeln('# ' + str(qSolved[0]))
     W.writeln('*Unique problems solved*')
-    W.writeln('### Thats almost ' + str(round(qSolved[0] * 100.0 / qSolved[1], 2)) + '% of all of leecode!')
+    W.writeln('### Thats almost ' + str(round(qSolved[0] * 100.0 / qSolved[1], 2)) + '% of all of leetcode!')
     W.writeln('___')
 
 
