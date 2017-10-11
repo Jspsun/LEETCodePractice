@@ -46,7 +46,7 @@ def writeLog():
 
 
 def pushToGit():
-    os.system("cd ~/AtomWorkspace/LEETCodePractice/")
+    os.system("cd ~/personal/LEETCodePractice/")
     os.system("git add .")
     os.system("git commit -m \"added files\" ")
     os.system("git push")
