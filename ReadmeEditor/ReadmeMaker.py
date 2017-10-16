@@ -39,13 +39,13 @@ def getNoOfQuestions():
 
     noOfJavaScriptQsSolved = len([f for f in os.listdir(
         pathJ) if os.path.isfile(os.path.join(pathJS, f))])
-    noOfDuplicates = 18
+    noOfDuplicates = 20
 
     return noOfJavaQsSolved + noOfPythonQsSolved + noOfJavaScriptQsSolved - noOfDuplicates
 
 
 def printCount():
-    totalQuestions = 628.0
+    totalQuestions = 623.0
     o.write('**So far (as of ' + time.strftime("%B %d, %Y") +
             ') my count is at:**   \n')
     o.write('# ' + str(getNoOfQuestions()) + '\n')
