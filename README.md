@@ -11,6 +11,8 @@ ___
 ## ProgressLog  
 | date | Questions Solved |   
 | -: | :- |   
+| September 30, 2017: | **180** |   
+| August 30, 2017: | **177** |   
 | July 30, 2017: | **165** |   
 | June 30, 2017: | **160** |   
 | May 30, 2017: | **156** |   
