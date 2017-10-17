@@ -15,19 +15,20 @@ class Solution(object):
         if not root:
             return
         if key < root.val:
-            root.left = self.deleteNode(rootleft,key)
+            root.left = self.deleteNode(root.left, key)
         elif key > root.val:
-            root.right = deleteNode(root.right, key)
-        else:
+            root.right = self.deleteNode(root.right, key)
+        else:  
             if not root.left:
                 return root.right
             elif not root.right:
                 return root.left
-            minNode = self.getMin(root.right)
-            root.val =  minNode.val
-            root.right=deleteNode(root.right, root.val)
-    
-    def getMin (self, node):
+            else:
+                root.val = self.getMin(root.right)
+                root.right = self.deleteNode (root.right, root.val)
+        return root
+
+    def getMin(self, node):
         while node.left:
             node = node.left
-        return node
+        return node.val
