@@ -9,7 +9,7 @@ ___
 ### Thats almost 30.93% of all of leecode! 
 ___
 ## ProgressLog  
-| date | Questions Solved |   
+| Date | Questions Solved |   
 | -: | :- |   
 | October 30, 2017: | **195** |   
 | September 30, 2017: | **180** |   

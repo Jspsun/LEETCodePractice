@@ -58,7 +58,7 @@ def printCount():
 
 def printLog():
     o.write('## ProgressLog  \n')
-    printTableRow("date", "Questions Solved")
+    printTableRow("Date", "Questions Solved")
     printTableRow("-:", ":-")
     printTableRow("October 30, 2017:", "**195**")
     printTableRow("September 30, 2017:", "**180**")
