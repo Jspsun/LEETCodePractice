@@ -1,0 +1,20 @@
+{
+  "name": "leetcodepractice",
+  "version": "1.0.0",
+  "description": "Some of the code I've written in preparation for coding interviews. Check out my journey to getting ~~less crappy~~ better at technical interviews!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "push": "python ReadmeEditor/ReadmeMaker.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jspsun/LEETCodePractice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jspsun/LEETCodePractice/issues"
+  },
+  "homepage": "https://github.com/Jspsun/LEETCodePractice#readme"
+}
