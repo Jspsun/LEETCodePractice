@@ -52,7 +52,7 @@ def printCount():
     o.write('*Unique problems solved* \n')
 
     o.write('### Thats almost ' + str(round(getNoOfQuestions() /
-                                            totalQuestions * 100, 2)) + '% of all of leecode! \n')
+                                            (totalQuestions * 100.0), 2)) + '% of all of leecode! \n')
     o.write('___\n')
 
 
