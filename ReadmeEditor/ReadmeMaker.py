@@ -50,8 +50,7 @@ def printCount():
             ') my count is at:**   \n')
     o.write('# ' + str(getNoOfQuestions()) + '\n')
     o.write('*Unique problems solved* \n')
-    print getNoOfQuestions()*1.0/totalQuestions
-    o.write('### Thats almost ' + str(round(getNoOfQuestions() / totalQuestions * 100.0, 2)) + '% of all of leecode! \n')
+    o.write('### Thats almost ' + str(round(getNoOfQuestions()*1.0 / totalQuestions * 100, 2)) + '% of all of leecode! \n')
     o.write('___\n')
 
 
