@@ -8,8 +8,6 @@ class Solution(object):
         m={}
         for i in xrange(len(S)):
             m[S[i]]=i
-        #filter letters
-        f=""
         return ''.join(sorted(T, key=m.get))
 
 
