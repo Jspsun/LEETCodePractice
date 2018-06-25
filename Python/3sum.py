@@ -2,23 +2,27 @@ class Solution(object):
     def threeSum(self, nums):
         """
         :type nums: List[int]
-        :rtype: List[List[int]]
+        :type target: int
+        :rtype: int
         """
-        ans = []
-        for i in range(len(nums)):
-            ret = self.twoSum( nums[:i]+nums[i+1:] , 0-nums[i])
-            if ret:
-                temp = sorted([nums[i]] + ret)
-                if temp not in ans:
-                    ans.append(temp)
-        return ans
-
-
-    
-    def twoSum(self, nums, k):
-        s = set([])
-        for n in nums:
-            if k-n in s:
-                return [k-n, n]
-            s.add(n)
-        return False
+        nums.sort()
+        res = []
+        for i in range(len(nums)-2):
+            if i==0 or nums[i]!=nums[i-1]:
+                low = i+1
+                high = len(nums)-1
+                sum = 0 - nums[i]
+                while(low<high):
+                    if nums[low] + nums[high]==sum:
+                        res.append([nums[i],nums[low],nums[high]])
+                        while (low < high and nums[low] == nums[low+1]):
+                            low+=1
+                        while (low < high and nums[high] == nums[high-1]):
+                            high-=1
+                        low+=1
+                        high-=1
+                    elif nums[low]+nums[high]<sum:
+                        low+=1
+                    else:
+                        high-=1
+        return res
