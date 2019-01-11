@@ -56,3 +56,45 @@ class Solution(object):
             # print current.val, root.val
         self.getMatches(root, current.left, values, matches, sum)
         self.getMatches(root, current.right, values, matches, sum)
+
+# Definition for a binary tree node.
+# class TreeNode(object):
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+# class Solution(object):
+#     def pathSum(self, root, sum):
+#         """
+#         :type root: TreeNode
+#         :type sum: int
+#         :rtype: int
+#         """
+#         counter = [0]
+#         self.dfs(root, 0, sum, counter, [])
+#         return counter[0]
+
+
+#     def dfs(self, root, sum, target, counter, memo):
+#         if not root:
+#             return
+#         sum += root.val
+#         memo.append(root.val)
+#         if sum == target:
+#             counter[0] += 1
+#             print memo
+#         self.dfs(root.left, sum, target, counter, memo)
+#         self.dfs(root.right, sum, target, counter, memo)
+#         memo.pop()
+#         self.dfs(root.left, 0, target, counter, memo)
+#         self.dfs(root.right, 0, target, counter, memo)
+
+# root = TreeNode(1)
+# root.right = TreeNode(2)
+# root.right.right = TreeNode(3)
+# root.right.right.right = TreeNode(4)
+# root.right.right.right.right = TreeNode(5)
+
+# print Solution().pathSum(root, 3)
+
