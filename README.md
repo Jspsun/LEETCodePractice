@@ -3,10 +3,10 @@ Some of the code I've written in preparation for coding interviews. Check out my
 
 ___
 
-**So far (as of January 11, 2019) my count is at:**   
-# 225
+**So far (as of January 17, 2019) my count is at:**   
+# 231
 *Unique problems solved* 
-### Thats almost 30.49% of all of leecode! 
+### Thats almost 31.3% of all of leecode! 
 ___
 ## ProgressLog  
 | Date | Questions Solved |   
